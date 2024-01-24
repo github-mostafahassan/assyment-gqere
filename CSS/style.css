@@ -1,0 +1,126 @@
+
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.534) , rgba(255, 0, 0, 0.404)),url(../imges/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    /* font-size: 45px; */
+    text-transform: capitalize;
+    
+}
+
+h4{
+    font-size: 16px;
+}
+aside{
+    position:absolute;
+    padding-top: 50px;
+    left: -25%;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    /* padding: 20px; */
+    background-color: #3d3e4d;
+    margin-bottom: 5px;
+    
+}
+
+aside a{
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+.plock{
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.8s all;
+}
+
+.plock:hover{
+    background-color: rgba(100, 9, 9, 0.808);
+}
+
+.open{
+    background-color: rgb(0, 38, 255);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    cursor: pointer;
+}
+
+
+#sec-1 .container{
+    padding: 40px;
+}
+
+#sec-1 .container .content{
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background-color:  #3d3e4d;
+    border-radius: 20px;
+    color: white;
+    /* margin-bottom: 20px; */
+    width: 80%;
+}
+#sec-1 .click-1,.click-2,.click-3,.click-4{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #0084ffd8;
+}
+
+#sec-1 p{
+    width: 80%;
+    display: none;
+}
+
+#sec-2{
+    padding: 40px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.397) , rgba(255, 0, 0, 0.212)),url(../imges/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#sec-2 .innar{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+footer i{
+transition: 0.7s all;
+cursor: pointer;
+}
+
+footer i:hover{
+     
+    color: white;
+    background-color: rgba(87, 15, 15, 0.87);
+}
